@@ -8,7 +8,7 @@ _PI=$(hostname -I) || true
 if [ "$_IP" ]; then
   print "My IP address is %s\n" "$_IP"
 fi
-
+python3 /home/pi/Desktop/sub_serverTCP.py
 exit 0
 ```
 **⚠️Attenzione!**
